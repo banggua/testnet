@@ -1,7 +1,7 @@
+#include <uv.h>
+
 #include <cstdio>
 #include <cstdlib>
-
-#include <uv.h>
 
 void alloc_buffer(uv_handle_t *handle, size_t suggested_size, uv_buf_t *buf);
 void on_close(uv_handle_t *handle);
